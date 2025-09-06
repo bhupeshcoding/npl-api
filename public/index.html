@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .endpoint {
+            background: #f4f4f4;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        code {
+            background: #e0e0e0;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>API Service</h1>
+    <p>Your FastAPI service is running on Netlify Functions.</p>
+    
+    <h2>Available Endpoints:</h2>
+    <div class="endpoint">
+        <h3>Get Responses</h3>
+        <p><code>GET /api/responses?input_text=happy&output_text=strengths&limit=10&skip=0</code></p>
+        <p>Example: <a href="/api/responses?input_text=happy&output_text=strengths&limit=10&skip=0" target="_blank">/api/responses?input_text=happy&output_text=strengths&limit=10&skip=0</a></p>
+    </div>
+    
+    <div class="endpoint">
+        <h3>Simulate Load</h3>
+        <p><code>GET /api/simulate</code></p>
+        <p>Example: <a href="/api/simulate" target="_blank">/api/simulate</a></p>
+    </div>
+    
+    <p>For more information, check the <a href="https://github.com/bhupeshcoding/npl-api" target="_blank">GitHub repository</a>.</p>
+</body>
+</html>
